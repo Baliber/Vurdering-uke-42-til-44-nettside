@@ -1,0 +1,83 @@
+.flexbox{
+    flex-wrap: wrap;
+    width: 80%;
+/*     background-color: #6d9a867d;
+    background-image: url("data:image/svg+xml,%3Csvg width='84' height='88' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%233e5a58' fill-opacity='0.73'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+ */    border-radius: 80px;
+}
+.linkTilSider:nth-child(3){
+    border-bottom: #6d9a86 4px solid;
+}
+body{
+    background-image: url("./Bilder/Høghuset.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:local ;
+}
+#tittel{
+    padding-top: 20px;
+    width: 75%;
+}
+#titteltekst{
+    border-radius: 90px;
+    font-size: xx-large;
+    padding: 10px;
+
+}
+#bildeoginfo{
+    display: flex;
+    margin-top: 50px;
+    width: 90%;
+    height: 480px;
+    border-radius: 90px;
+    background-color: #7dab978f;
+}
+#bilde{
+    border:#385548 1px solid;
+    border-radius: 20px;
+
+}
+#bilde img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+.info{
+    
+    height: 100%;
+    flex: 1;
+    
+}
+.info p{
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+    border:#385548 1px solid;
+    border-radius: 20px;
+    font-size: larger;
+    background-color: rgba(255, 255, 255, 0.18);
+}
+#mer p{
+    margin-top: 250px;
+}
+#resturant{
+    margin-top: 100px;
+    width: 70%;
+    padding-bottom: 100px;
+    margin-bottom: 500px;
+}
+#resturant img{
+    max-width: 100%;
+    max-height: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#bildetittel{
+    border: #385548 1px solid;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+    background-color: #6d9a8695;
+    color: #a2ddc3;
+    font-size: xx-large;
+    
+}   

@@ -1,0 +1,77 @@
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+body{
+    background-image: url("./bilder/SVENSSENBACKGOUND.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #dd3636;
+}
+.linkTilSider:nth-child(4){
+    border-bottom: black 4px solid;
+}
+#svenssen{
+    margin: 100px 0px 0px 50px;
+     
+}
+#svenssen p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: xx-large;
+    margin-bottom: 50px; 
+    
+}
+#infoboks{
+    flex: 1;
+    height: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.info{
+    flex: 1;
+    height: 50%;
+/*     background-color: #dd363673;
+    background-color: rgba(135, 135, 135, 0.208); */
+}
+.info img{
+    max-width: 98%;
+    max-height: 98%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 10%;
+}
+#infobilde{
+    width: fit-content;
+}
+#infotekst p{
+    margin: 10px;
+    font-size: x-large;
+    color: beige;
+    text-shadow: 2px 2px #ff0000;
+}
+#discografi{
+    width: 100%;
+    height: 100%;
+}
+table{
+    text-align: center;
+    background-color: lightgray;
+    width: 100%;
+    height: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: beige;
+}
+td{
+    background-color: #dd3636;
+}
+th{
+    background-color: #dd3636;
+}

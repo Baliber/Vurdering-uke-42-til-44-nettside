@@ -1,0 +1,59 @@
+
+.bildereferanse{
+    height: auto;
+    width: 90%;
+    border: 1px solid black;
+    background-color: white;
+    margin: 0;
+    font-size: smaller;
+}
+#overskrift h1{
+    text-align: top;
+    color: white;
+}
+#overskrift{
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.linkTilSider a{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.linkTilSider{
+    flex: 1;
+    background-color: #acd9d6;
+    text-align: center;
+    margin: 1px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+    margin-top: 20px;
+}
+.linkTilSider:nth-child(2){
+    background-color: #be492f;
+    margin-left: 20%;
+}
+.linkTilSider:nth-child(2):hover{
+    border-bottom: #a08354 4px solid;
+}
+.linkTilSider:nth-child(3):hover{
+    border-bottom: #6d9a86 4px solid;
+}
+.linkTilSider:nth-child(4){
+    background-color: #dd3636;
+}
+.linkTilSider:nth-child(4):hover{
+    border-bottom: black 4px solid;
+}
+.linkTilSider:nth-child(5){
+    background-color: #727b84;
+}
+.linkTilSider:nth-child(5):hover{
+    border-bottom: #d0d5d9 4px solid;
+}

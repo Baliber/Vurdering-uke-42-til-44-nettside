@@ -1,0 +1,35 @@
+body{
+    background-color: #ad7757;
+}
+.linkTilSider:nth-child(5){
+    border-bottom: #d0d5d9 4px solid;
+}
+.flexbox{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-image: url("./Bilder/Tittel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+#tekst{
+    position: absolute;
+    width: 100%;
+}
+#bilder{
+    width: 100%;
+    position: absolute;
+}
+
+#knapp{
+    width: 100px;
+    height: 100px;
+    margin-top: 50%;
+    margin-left: 50%;
+    border: 1px solid #ad7757;
+}
+#knapp:hover ~ #bilder{
+    display: none;
+}

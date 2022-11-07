@@ -1,0 +1,108 @@
+body{
+    background-color: gray;
+/*     background-image: url("https://premium.vgc.no/v2/images/8d67febf-2a8b-4473-8811-c482d12ed101?fit=crop&format=auto&h=967&w=1368&s=6190e42026e1cd840adbbeb8d711f4957b9301da");
+ */    
+ background-image: url("./Bilder/bakgrunn.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.infoboks{
+    width: 70%;
+    height: auto;
+    display: flex;
+}
+.tittel{
+    height: auto;
+    width: 70%;
+    border: 1px solid gray;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    font-size: x-large;
+    background-color: rgba(174, 127, 88, 0.5);
+    color: whitesmoke;
+    margin-top: 50px;
+}
+h2{
+    margin: 20px;
+}
+
+.info{
+    flex: 1;
+    height: auto;
+    border: 1px solid gray;
+    border-top: none;
+    background-color: rgba(200, 200, 150, 0.9);
+    border-bottom-left-radius: 20px;
+    text-align: left;
+    
+}
+#kart{
+    flex: 1.2;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+#kart img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 20px;
+}
+#kart{
+    flex: 1.5;
+}
+
+p{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: x-large;
+    color: rgb(69, 69, 69);
+    margin-top: 5%;
+}
+#brynebyentittel{
+    background-color: rgba(69, 69, 69, 0.7);
+}
+#brynebyen{
+    border: 1px solid gray
+}
+h3{
+    margin: 20px;
+}
+.bilde{
+    margin-left: 5px;
+}
+.bilde img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    
+}
+
+
+.bildeoverskrift{
+    width: 98.6%;
+    border: 1px solid gray;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    margin: 10px 5px 0px 5px;
+    background-color: rgba(69, 69, 69, 0.7);
+    color: whitesmoke;
+    font-size: larger   ;
+}
+.brynebyeninfo{
+    flex: 1;
+    height: auto;
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+

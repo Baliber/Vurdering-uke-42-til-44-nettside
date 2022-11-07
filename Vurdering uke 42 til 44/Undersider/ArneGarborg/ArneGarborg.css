@@ -1,0 +1,96 @@
+body{
+    background-color: #be492f;
+}
+.linkTilSider:nth-child(2){
+    border-bottom: #a08354 4px solid;
+}
+div{
+    overflow: hidden;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+}
+#bok{
+    width: 40px;
+    height: auto;
+    margin-left: 10vw
+}
+#tittel{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+}
+.boks p{
+    font-size: larger;
+    margin: 20px;
+}
+
+.boks{
+    flex: 1;
+    height: 400px;
+    border: 2px solid #a08354;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #a08354;
+    opacity: 0.9;
+    
+}
+.boks:nth-child(2){
+    flex: 0.7;
+    text-align: center;
+    border: none;
+    background: linear-gradient(135deg, #a0835455 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #a08354 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #a0835455 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #a08354 25%, #be492f 25%) 0px 0/ 80px 80px;
+}
+.boks:nth-child(2) img{
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+.knudaheio{
+    flex: 1;
+    border: 2px solid #a08354;
+    height: auto;
+    margin: 5px;
+}
+.knudaheio p{
+    font-size: larger;
+    margin: 20px;
+}
+.knudaheio:nth-child(2){
+
+}
+.knudaheio:nth-child(2) img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.garborgheimen{
+    flex: 1;
+    border: 2px solid #a08354;
+    height: auto;
+    margin: 5px;
+}
+.garborgheimen:nth-child(3){
+
+}
+.garborgheimen img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#garborgsenterettekst{
+    position: absolute; 
+    text-align: center;
+    border: 2px solid #be492f;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 30%;
+    margin-top: 30px;
+    background-color: #a08354;
+    font-size: larger;
+}
